@@ -31,4 +31,4 @@ climate:
     appid: xxxxxxxx
 ```
 
-Aqara开放平台请求需要accessToken并且会过期，因此插件会每6天刷新一次token。刷新后的token将被存储在 /config/tmp/aqara_token.json 文件中。插件将优先从该文件中获取token，如果找不到则会从Home Assistant的配置文件中获取token。因此，如果您重启了Home Assistant，则需要同时配置Home Assistant中的token和 /config/tmp/aqara_token.json 文件中的token。
+Aqara开放平台请求需要accessToken并且会过期，因此插件会每6天刷新一次token。刷新后的token将被存储在 /config/tmp/aqara_token.json 文件中。插件将优先从该文件中获取token，如果找不到则会从Home Assistant的配置文件中获取token。因此，如果token过期需要优先配置/config/tmp/aqara_token.json
