@@ -4,7 +4,7 @@ Aqara空调红外控制插件
 该插件允许您通过Aqara开放平台控制红外控制的空调。请按照以下步骤进行安装和配置。
 
 ## 1. 安装准备
-1.1 注册Aqara开放平台账号，并创建一个项目并通过审核（https://developer.aqara.com/ ↗）。  
+1.1 注册Aqara开放平台账号，并创建一个项目并通过审核 <a href="https://developer.aqara.com/" target="_blank">（https://developer.aqara.com/ ↗）b</a>。  
 1.2 在Aqara智能家居App中绑定红外控制的空调。  
 1.3 在Aqara开放平台中，进入项目管理 > 设备管理，搜索出空调设备的did（可以通过账户ID或者Aqara账号进行搜索）。  
 1.4 在Aqara开放平台中，进入项目管理 > 授权管理，进行Aqara账号授权，以获取accessToken和refreshToken。  
